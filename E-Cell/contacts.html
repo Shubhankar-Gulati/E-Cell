@@ -7,7 +7,7 @@ body {
   font-family: "Lato", sans-serif;
 }
 
-.nav {
+/*.nav {
   width: 250px;
   position: fixed;
   z-index: 2;
@@ -30,11 +30,11 @@ body {
   color: red;
 }
 
-
+*/
 .main {
   margin-top: 500px
   margin-left: 270px; 
-  font-size: 100px; 
+  font-size: 50px; 
   padding: 0px 10px;
   text-align: center;
   margin-right:170px;
@@ -59,44 +59,74 @@ body {
   color: white;
 }
 
-h1 {
-  font-size: 35px;
-  color:#555 ;
-  text-align: center;
-  padding: 0px 10px ;
-    }
-
-a:link {
-  color: white;
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
+.topnav {
+  overflow: hidden;
+  background-color:white;
+}
+
+.topnav a {
+  float: right;
+  color:black;
+  text-align: center;
+  padding: 37px 80px;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+.topnav a:hover {
+  background-color:#E0FFFF;
+  color: black;
+}
+
+.topnav-left {
+  float: left;
+}
+
+h1 {
+  font-size: 100px;
+  color:white ;
+  text-align: left;
+  padding: 50px 40px ;}
+
+.abc p {
+  font-size: 40px;
+  color:white ;
+  text-align: left;
+  padding: 0px 50px ;
+    }
+
 body {
-  background-image:url('contacs1.jpg');
+  background-image: url('shubha.gif');
   background-repeat: no-repeat;
   background-attachment: fixed;  
   background-size: cover;
 }
-
-.active {
-  background-color: #4CAF50;
 </style>
 </head>
 <body>
-
-
-<div class="nav">
-  <a href="shubh.html" color=>Home</a><hr>
-  <a href="for_other_bars.html" color=>Landing</a><hr>
-  <a href="about.html"color=>About</a><hr>
-  <a class="active " href="contacts.html" color=>Contact</a>
+<div class="topnav">
+  <div class="topnav-left">
+    <div class="main-logo">
+        <img src="shubh1.png" alt="Me">
+    </div>
+  </div>
+  <a>Contact</a>
+  <a href="about.html">About</a>
+  <a href="for_other_bars.html">Landing</a>
+  <a href="shubh.html">Home</a>
 </div>
 <div class="main">
   <h2>Your Details</h2>
-<form action="/action_page.php">
+<form action="save.php">
   <label for="name">Name:</label>
   <input type="text" id="Name" name="Name" pattern="[A-Za-z]* A-Za-z]*" title="your name"><br>
-  <label for="email">Gmail:</label>
-  <input type="text" id="email" name="email" pattern=".+@gmail.com" title="Your email"><br>
+  <label for="email">E-mail:</label>
+  <input type="text" id="email" name="email"  title="Your email"><br>
   <label for="No">Phone:</label>
   <input type="text" id="no" name="no" pattern="[1-9][0-9]{9}" title="Your Phone Number"><br>
 

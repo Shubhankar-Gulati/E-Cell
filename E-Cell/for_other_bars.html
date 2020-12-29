@@ -1,18 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
 <style>
-body {
-  font-family: "Lato", sans-serif;
-}
+  
 
-.nav {
+./*nav {
   width: 250px;
   position: fixed;
-  z-index: 2;
   top: 110px;
-  left: 10px;
+  right: 10px;
   background: 463939;
   overflow-x: hidden;
   padding: 20px 5px;
@@ -30,6 +27,76 @@ body {
   color: red;
 }
 
+*/
+
+.topnav {
+  overflow: hidden;
+  background-color:white;
+}
+
+.topnav a {
+  float: right;
+  color:black;
+  text-align: center;
+  padding: 37px 80px;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+.topnav a:hover {
+  background-color:#E0FFFF;
+  color: black;
+}
+
+.topnav-left {
+  float: left;
+}body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color:white;
+}
+
+.topnav a {
+  float: right;
+  color:black;
+  text-align: center;
+  padding: 37px 80px;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+.topnav a:hover {
+  background-color:#E0FFFF;
+  color: black;
+}
+
+.topnav-left {
+  float: left;
+}
+
+h1 {
+  font-size: 100px;
+  color:white ;
+  text-align: left;
+  padding: 50px 40px ;}
+
+.abc p {
+  font-size: 40px;
+  color:white ;
+  text-align: left;
+  padding: 0px 50px ;
+    }
+
+body {
+  background-image: url('imp.gif');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
 
 .main h1{
   margin-left: 270px; 
@@ -56,26 +123,28 @@ h1 {
   padding: 0px 10px ;
     }
 
-body {
-  background-image:url('landing.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;  
-  background-size: cover;
-}
 
-.active {
-  background-color: #4CAF50;
 </style>
 </head>
 <body>
 
-
-<div class="nav">
+<div class="topnav">
+  <div class="topnav-left">
+    <div class="main-logo">
+        <img src="shubh1.png" alt="Me">
+    </div>
+  </div>
+  <a href="contacts.html">Contact</a>
+  <a href="about.html">About</a>
+  <a href="for_other_bars.html">Landing</a>
+  <a href="shubh.html">Home</a>
+</div>
+<!-- <div class="nav">
   <a href="shubh.html" color=>Home</a><hr>
   <a class="active"href="for_other_bars.html">Landing</a><hr>
   <a href="about.html">About</a><hr>
   <a href="contacts.html">Contact</a>
-</div>
+</div> -->
 
 <div class="main">
   <h1>Shubhankar</br> Gulati</h1>
